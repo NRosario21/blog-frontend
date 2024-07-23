@@ -1,0 +1,7 @@
+#posts-index img {
+  width: 500px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
