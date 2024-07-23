@@ -1,7 +1,7 @@
-function Header() {
+export function Header() {
   return (
     <header>
-      <a href="#">Home</a> | <a href="#posts-index">All Posts</a> | <a href="#posts-new">New posts</a>
+      <a href="#">Home</a> | <a href="#posts-index">All blogs</a> | <a href="#posts-new">New blog</a>
     </header>
   );
 }
@@ -77,7 +77,7 @@ function PostsIndex(props) {
 } */
 }
 
-function Footer() {
+export function Footer() {
   return (
     <footer>
       <p>Copyright 2024</p>
